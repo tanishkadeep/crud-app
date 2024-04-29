@@ -46,7 +46,7 @@ def update_contact(user_id):
 
     db.session.commit()
 
-    return jsonify({"message": "Usr updated."}), 200
+    return jsonify({"message": "User updated."}), 200
 
 
 @app.route("/delete_contact/<int:user_id>", methods=["DELETE"])
