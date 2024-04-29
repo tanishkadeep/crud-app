@@ -3,3 +3,7 @@
   line-height: 1.5;
   font-weight: 500;
 }
+
+input, button, label {
+  margin-top: 10px;
+}
